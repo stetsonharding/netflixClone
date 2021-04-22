@@ -1,10 +1,15 @@
 import React from 'react';
-import Jumbotron from '../components/jumbotron';
+import { JumbotronContainer } from '../containers/jumbotron'
+import { FooterContainer } from "../containers/footer"
+import { FaqsContainer } from '../containers/faqs';
+
 
 export default function Home() {
     return (
-        <Jumbotron.Container>
-            <p>Hello</p>
-        </Jumbotron.Container>
+    <>
+       <JumbotronContainer />
+        <FaqsContainer />
+       <FooterContainer />
+    </>
     )
 }

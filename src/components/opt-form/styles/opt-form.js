@@ -30,7 +30,7 @@ export const Button = styled.button`
   color: white;
   text-transform: uppercase;
   padding: 0 32px;
-  font-size: 26px;
+  font-size: 1.5em;
   border: 0;
   cursor: pointer;
   
@@ -52,15 +52,19 @@ export const Button = styled.button`
     @media (max-width: 1000px) {
       height: 50px;
       font-size: 1em;
-      margin-top: 1.1em;
+      margin-top: 1.3em;
       font-weight: bold;
     }
   }
 `;
 
+export const Break = styled.div`
+  flex-basis: 100%;
+  height: 0;
+`;
+
 export const Text = styled.p`
   font-size: 1.3em;
   color: white;
-  font-weight: bold;
   text-align: center;
 `;

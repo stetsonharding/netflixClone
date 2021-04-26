@@ -23,6 +23,7 @@ export function FaqsContainer() {
           value=""
           onChange=""
         />
+
         <OptForm.Button>Get Started</OptForm.Button>
       </OptForm>
     </Accordion>
